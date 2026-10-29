@@ -1,0 +1,664 @@
+.ramka,
+.zvezda,
+.oblaka1,
+.luna,
+.oblaka2,
+.hero-star {
+    pointer-events: none;
+}
+body {
+    background-color: #0C0E25;
+}
+.glav {
+    width: 1440px;
+    height: 1024px;
+    font-family: Garamond;
+}
+.ramka {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 1370px;
+}
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 65px 0;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 400;
+    color: #F9D075;
+}
+.knopki {
+    display: flex;
+    gap: 40px;
+}
+.knopki a {
+    font-size: 28px;
+    color: #F9D075;
+    text-decoration: none;
+}
+.zagol1 {
+    position: absolute;
+    left: 50px;
+    top: 185px;
+    color: #F9D075;
+    font-size: 130px;
+}
+.tekst1 {
+    position: absolute;
+    color: #F9D075;
+    left: 55px;
+    top: 345px;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Garamond;
+}
+.zvezda {
+    position: absolute;
+    width: 18px;
+    animation: move 2s infinite alternate;
+}
+.zvezda1 {
+    left: 630px;
+    top: 380px;
+}
+.zvezda2 {
+    left: 935px;
+    top: 170px;
+    width: 20px;
+}
+.zvezda3 {
+    left: 1245px;
+    top: 160px;
+    width: 18px;
+}
+.zvezda4 {
+    left: 1330px;
+    top: 265px;
+    width: 18px;
+}
+.zvezda5 {
+    left: 675px;
+    top: 560px;
+    width: 20px;
+}
+.zvezda6 {
+    left: 345px;
+    top: 645px;
+    width: 18px;
+}
+.zvezda7 {
+    left: 540px;
+    top: 725px;
+    width: 18px;
+}
+.zvezda8 {
+    left: 880px;
+    top: 715px;
+    width: 18px;
+}
+.zvezda9 {
+    left: 1075px;
+    top: 625px;
+    width: 17px;
+}
+.zvezda10 {
+    left: 1100px;
+    top: 305px;
+    width: 12px;
+}
+@keyframes move {
+    from {
+    transform: translateY(50px);
+    }
+    to {
+    transform: translateY(-20px);
+    }
+}
+.oblaka1 {
+    position: absolute;
+    width: 2000px;
+    height: 1200px;
+    left: -200px;
+    top: 200px;
+}
+.luna {
+    position: absolute;
+    width: 830px;
+    height: 700px;
+    right: 10px;
+    top: 210px;
+}
+.oblaka2 {
+    position: absolute;
+    width: 504px;
+    height: 390px;
+    left: 1000px;
+    top: 720px;
+}
+.bolzvezda {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 500px;
+    top: 120px;
+}
+.zhelanie {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: visible;
+}
+.shar {
+    position: absolute;
+    right: -100px;
+    top: -200px;
+}
+.zagol2 {
+    position: absolute;
+    top: 90px;
+    left: -10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Garamond;
+    font-size: 42px;
+}
+.knopka {
+    position: absolute;
+    top: 625px;
+    left: -35px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #0C0E25;
+}
+.crug {
+    position: absolute;
+    width: 12px;
+}
+.crug1 {
+    left: 120px;
+    top: 300px;
+}
+.crug2 {
+    left: 220px;
+    top: 380px;
+    width: 8px;
+}
+.crug3 {
+    left: 330px;
+    top: 250px;
+    width: 10px;
+}
+.crug4 {
+    left: 280px;
+    top: 530px;
+    width: 9px;
+}
+.crug5 {
+    left: 400px;
+    top: 620px;
+    width: 7px;
+}
+.crug6 {
+    left: 1000px;
+    top: 280px;
+    width: 10px;
+}
+.crug7 {
+    left: 1120px;
+    top: 370px;
+    width: 15px;
+}
+.crug8 {
+    left: 1050px;
+    top: 500px;
+    width: 9px;
+}
+.crug9 {
+    left: 1200px;
+    top: 560px;
+    width: 8px;
+}
+.crug10 {
+    left: 950px;
+    top: 650px;
+    width: 7px;
+}
+.crug11 {
+    left: 350px;
+    top: 760px;
+    width: 8px;
+}
+.crug12 {
+    left: 480px;
+    top: 850px;
+    width: 12px;
+}
+.crug13 {
+    left: 580px;
+    top: 780px;
+    width: 7px;
+}
+.crug14 {
+    left: 850px;
+    top: 800px;
+    width: 10px;
+}
+.crug15 {
+    left: 1000px;
+    top: 850px;
+    width: 14px;
+}
+.crug16 {
+    left: 1100px;
+    top: 750px;
+    width: 8px;
+}
+.odome {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: visible;
+    z-index: 2;
+}
+.zagol3 {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 100px;
+    font-weight: 400;
+    color: white;
+}
+.zvezda3 {
+    position: absolute;
+    animation: rotateStar 6s linear infinite;
+}
+.bolleft {
+    width: 620px;
+    left: -100px;
+    top: 50px;
+    animation: rotateStar 12s linear infinite;
+}
+.mal1 {
+    width: 65px;
+    left: 400px;
+    top: 390px;
+}
+.mal2 {
+    width: 110px;
+    left: 610px;
+    top: 400px;
+}
+.mal3 {
+    width: 100px;
+    left: 890px;
+    top: 300px;
+}
+.mal4 {
+    width: 80px;
+    right: 240px;
+    top: 420px;
+}
+.mal5 {
+    width: 100px;
+    right: 20px;
+    top: 100px;
+}
+.bolright {
+    width: 520px;
+    right: -200px;
+    bottom: -120px;
+    animation: rotateStar 14s linear infinite;
+}
+.odome p {
+    font-family: Garamond;
+    font-size: 50px;
+    color: white;
+}
+.tekst3 {
+    position: absolute;
+    top: 490px;
+    left: 70px;
+    width: 1300px;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    z-index: 3;
+}
+@keyframes rotateStar {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+.fon3 {
+    position: absolute;
+    width: 1600px;
+    height: 1100px;
+    left: -110px;
+    top: 370px;
+    z-index: 1;
+}
+.kakrab {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: visible;
+    z-index: 3;
+}
+.karta1 {
+    position: absolute;
+    width: 530px;
+    left: 40px;
+    top: 300px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+.karta2 {
+    position: absolute;
+    width: 530px;
+    right: 40px;
+    top: 300px;
+    transform: rotate(10deg);
+    z-index: 2;
+}
+.plashka {
+    position: absolute;
+    width: 570px;
+    left: 435px;
+    top: 20px;
+    z-index: 4;
+}
+.blok4 {
+    position: absolute;
+    width: 440px;
+    left: 500px;
+    top: 270px;
+    color: white;
+    z-index: 5;
+}
+.zagol4 {
+    text-align: center;
+    font-family: Garamond;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.shagi {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    position: relative;
+    left: 15px;
+    gap: 28px;
+}
+.shag {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: start;
+    text-align: left;
+}
+.nomer {
+    font-family: Garamond;
+    font-size: 38px;
+    color: #F7D174;
+}
+.tekstshaga {
+    font-family: Garamond;
+    font-size: 38px;
+    line-height: 1.15;
+    color: white;
+}
+.zvezda4 {
+    position: absolute;
+    z-index: 6;
+    animation: rotatePage4Star 8s linear infinite;
+}
+.zvezda4_1 {
+    width: 35px;
+    left: 70px;
+    top: 90px;
+    animation-duration: 6s;
+}
+.zvezda4_2 {
+    width: 55px;
+    left: 260px;
+    top: 190px;
+    animation-duration: 9s;
+}
+.zvezda4_3 {
+    width: 30px;
+    left: 100px;
+    top: 450px;
+    animation-duration: 7s;
+}
+.zvezda4_4 {
+    width: 45px;
+    left: 350px;
+    top: 650px;
+    animation-duration: 11s;
+}
+.zvezda4_5 {
+    width: 40px;
+    right: 80px;
+    top: 100px;
+    animation-duration: 8s;
+}
+.zvezda4_6 {
+    width: 60px;
+    right: 250px;
+    top: 220px;
+    animation-duration: 10s;
+}
+.zvezda4_7 {
+    width: 30px;
+    right: 110px;
+    top: 500px;
+    animation-duration: 6s;
+}
+.zvezda4_8 {
+    width: 45px;
+    right: 340px;
+    top: 670px;
+    animation-duration: 9s;
+}
+@keyframes rotatePage4Star {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+.sobytia {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+}
+.fon5 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.blok5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.zagol5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+.zagol5 h1 {
+    font-family: Garamond;
+    font-size: 130px;
+    font-weight: 400;
+    gap: 0;
+    margin-top: 70px;
+    color: #F9D075;
+}
+.zagol5 h4 {
+    font-family: Garamond;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+.kartochki {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+    margin-top: 80px;
+}
+.kartochka {
+    position: relative;
+    width: 300px;
+}
+.kartinka {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.tekstkarta {
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.tekstkarta h3 {
+    font-family: Garamond;
+    font-size: 29px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9D075;
+    margin-bottom: 40px;
+}
+.tekstkarta p {
+    font-family: Garamond;
+    font-size: 20px;
+    line-height: 1.3;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.data {
+    font-family: Garamond;
+    font-size: 18px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.podval {
+    position: relative;
+    width: 1440px;
+    height: 700px;
+    margin-top: -80px;
+    overflow: hidden;
+    background-color: #0C0E25;
+}
+.fonpodval {
+    position: absolute;
+    width: 1900px;
+    left: -200px;
+    bottom: -300px;
+    z-index: 1;
+}
+@keyframes footerStar {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+.palka {
+    position: absolute;
+    left: 70px;
+    top: 270px;
+}
+.blokpodval {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.zagolpodval {
+    font-family: Garamond;
+    font-size: 156px;
+    color: #F9E3BE;
+}
+.kontakty {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.kontakty h3 {
+    font-family: Garamond;
+    font-size: 24px;
+    font-weight: 400;
+    color: #D7B1A4;
+}
+.kontakt {
+    font-family: Garamond;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.knopki a {
+    display: block;
+    padding: 8px 16px;
+    border: 1px solid #F9D075;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+.knopki a:hover {
+    background-color: #F9D075;
+    color: #0C0E25;
+}
