@@ -50,6 +50,16 @@ https://tenshikchipi.github.io/Project_Neverveil/
     ...
 </div>
 ```
+```
+.ramka,
+.zvezda,
+.oblaka1,
+.luna,
+.oblaka2,
+.hero-star {
+    pointer-events: none;
+}
+```
 Для плавного перехода используется:
 
 ```css
