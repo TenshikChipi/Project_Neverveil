@@ -9,6 +9,20 @@
 body {
     background-color: #0C0E25;
 }
+.knopka-zhel {
+    display: inline-block;
+    padding: 18px 28px;
+    background-color: #F7D174;
+    color: #0C0E25;
+    font-family: Garamond;
+    font-size: 34px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s;
+    position: absolute;
+    left: 40px;
+    top: 500px;
+}
 .glav {
     width: 1440px;
     height: 1024px;
